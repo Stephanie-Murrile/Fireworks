@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    overflow: hidden;
+    background: linear-gradient(
+        to bottom,
+        #001030,
+        #000814,
+        #000000
+    );
+    font-family: Arial, sans-serif;
+}
+
+canvas {
+    display: block;
+}
+
+h1 {
+    position: absolute;
+    top: 20px;
+    width: 100%;
+    text-align: center;
+    color: white;
+    font-size: 3rem;
+    text-shadow:
+        0 0 10px red,
+        0 0 20px blue;
+    z-index: 10;
+}
+
+.subtitle {
+    position: absolute;
+    top: 80px;
+    width: 100%;
+    text-align: center;
+    color: #ddd;
+    z-index: 10;
+}
